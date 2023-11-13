@@ -14,7 +14,7 @@ function show(){
     let to=document.getElementById('bars');
     na.style.display='block';
    
-    bu.style.border='2px solid black'
+   
     bu.style.boxShadow='0 9px 5px 0 rgba(0, 0, 0, 0.106), 0 7px 20px 0 rgba(0, 0, 0, 0.106)'
     to.style.fontSize='200%'
     to.style.transition='0.3s'
