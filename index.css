@@ -381,6 +381,16 @@ input[type='text']{
     
 }
 
+input[type='email']{
+    font-family: 'Gilroy-Light ☞';
+    padding-left: 15px;
+    
+}
+
+.wewr[type='email']{
+    padding-left: 15px;
+  }
+
 .wewr[type='text']{
   padding-left: 15px;
 }
