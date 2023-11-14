@@ -39,5 +39,13 @@ function out(){
 
 function to(){
     let va=document.getElementById('navnav1');
+    let bu=document.getElementById('but2');
+    let to=document.getElementById('bars');
     va.style.display='none';
+    bu.style.border='none'
+    bu.style.boxShadow='none'
+    to.style.fontSize='150%'
+    to.style.transition='0.3s'
+    bu.style.transition='0.3s'
+    to.style.transform='rotate(180deg)'
 }
