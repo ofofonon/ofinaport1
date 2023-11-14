@@ -12,6 +12,7 @@ function show(){
     let na=document.getElementById('navnav1');
     let bu=document.getElementById('but2');
     let to=document.getElementById('bars');
+    
     na.style.display='block';
    
    
@@ -34,4 +35,9 @@ function out(){
     bu.style.transition='0.3s'
     to.style.transform='rotate(180deg)'
 
+}
+
+function to(){
+    let va=document.getElementById('navnav1');
+    va.style.display='none';
 }
