@@ -49,3 +49,13 @@ function to(){
     bu.style.transition='0.3s'
     to.style.transform='rotate(180deg)'
 }
+
+let navf= document.getElementById('uo').style;
+let loa= document.getElementById('load').style;
+
+if(loa.display='none'){
+    navf.display='block'
+}
+else{
+    navf.display='none'
+}

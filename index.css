@@ -91,8 +91,7 @@
 .navbar {
     background-color: transparent;
     transition: background-color 0.3s;
-   
-    
+   display: none;
    
     
 }
@@ -528,33 +527,57 @@ ul{
 }
 
 .loader{
+    display: block;
+    background-color: orange;
+    width: 100%;
+    height: 700px;
+    z-index: 35;
     position: fixed;
     top: 0;
-    left: 0;
-    width: 120vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: orange;
     transition: opacity 6s, visibility 5s;
-    z-index: 15;
-  }
+}
 
-  .loader-hidden{
+.loader-hidden{
     opacity: 0;
     visibility: hidden;
   }
 
-  .loader::after{
+.loader::after{
     content: "";
-    height: 350px;
-    width: 350px;
-    border: solid 3px rgba(239, 206, 144, 0.702);
-    border-top-color: white;
-    border-radius: 50%;
-    animation: loading 1s ease infinite;
+   
   }
+
+.mr{
+    width: 135px;
+    height: 130px;
+    background-color: transparent;
+    border: 19px solid  rgb(239, 206, 144);
+    position: absolute;
+   animation-name: turn;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+
+}
+
+.fr{
+    width: 100%;
+    height: 93px;
+    background-color: transparent;
+    border:white solid 15px;
+    animation-name: turn2;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;  
+}
+
+@keyframes turn{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(180deg);}
+}
+
+@keyframes turn2{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(-360deg);}
+}
 
   .navnav{
     position: fixed;
