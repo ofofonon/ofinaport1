@@ -42,6 +42,13 @@
 
 
 
+
+    *{
+        margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
 .body{
     background-color: white;
     font-family: 'Gilroy-Bold ☞';
@@ -294,7 +301,7 @@ background-color: rgb(249, 243, 243);
 .ees2{
     height: 200px;
     width: 100%;
-  
+  transition: 0.3s;
 background-color: rgb(249, 243, 243);
   border-radius: 9px;
   box-shadow: 0 9px 8px 0 rgba(0, 0, 0, 0.2), 0 15px 20px 0 rgba(0, 0, 0, 0.19);
@@ -671,5 +678,53 @@ padding: 28px;
     display:none;
     box-shadow: 0 9px 5px 0 rgba(0, 0, 0, 0.106), 0 7px 20px 0 rgba(0, 0, 0, 0.106);
 }
+
+.works{
+    margin-top: 30px;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 230px;
+    
+}
+
+.worksin{
+    height: 170px;
+    width: 22.5%;
+    background-color: rgb(249, 243, 243);
+    border-radius: 9px;
+    box-shadow: 0 9px 8px 0 rgba(0, 0, 0, 0.2), 0 15px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 23px;
+    display: inline-block;
+    transition: 0.4s;
+}
+
+.worksin:hover{
+    transform: scale(1.06,1.06);
+}
+
+@media (max-width: 768px) {
+    
+    .worksin{
+        height: 170px;
+        width: 92%;
+        background-color: rgb(249, 243, 243);
+        border-radius: 9px;
+        box-shadow: 0 9px 8px 0 rgba(0, 0, 0, 0.2), 0 15px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-left: 4%;
+        display: block;
+        transition: 0.4s;
+        margin-top: 40px;
+    }
+
+    .ees2{
+        height: 140px;
+        width: 100%;
+      transition: 0.3s;
+    background-color: rgb(249, 243, 243);
+      border-radius: 9px;
+      box-shadow: 0 9px 8px 0 rgba(0, 0, 0, 0.2), 0 15px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
 
   
